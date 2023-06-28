@@ -49,7 +49,8 @@ export default function Home() {
       </div>
       <div className={'grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 z-20'}>
         <Link
-          href={'/'}
+          href={'https://www.instagram.com/the.crowley.official'}
+          target={'_blank'}
           className={'links flex items-center gap-x-4 rounded-lg p-2'}
         >
           <FaInstagram size={20} color={'white'}/>
@@ -58,15 +59,17 @@ export default function Home() {
             >the.crowley.official</span>
           </div>
         </Link>
-        <Link href={'/'} className={'flex items-center gap-x-4 links rounded-lg p-2'}>
+        <Link href={'https://www.facebook.com/the.crowley.official'}
+              target={'_blank'}
+              className={'flex items-center gap-x-4 links rounded-lg p-2'}>
           <FaFacebook size={20} color={'white'}/>
           <div className={'hero_link glitch-hover layers-hover '} data-text={'the.crowley.official'}><span>the.crowley.official</span></div>
         </Link>
-        <Link href={'/'} className={'flex items-center gap-x-4 links rounded-lg p-2'}>
+        <Link href={'https://www.tiktok.com/@the.crowley.official'} target={'_blank'} className={'flex items-center gap-x-4 links rounded-lg p-2'}>
           <FaTiktok size={20} color={'white'}/>
           <div className={'hero_link glitch-hover layers-hover'} data-text={'@the.crowley.official'}><span>@the.crowley.official</span></div>
         </Link>
-        <Link href={'/'} className={'flex items-center gap-x-4 links rounded-lg p-2'}>
+        <Link href={'https://www.youtube.com/@the.crowley.official'} target={'_blank'} className={'flex items-center gap-x-4 links rounded-lg p-2'}>
           <FaYoutube size={20} color={'white'}/>
           <div className={'hero_link glitch-hover layers-hover'} data-text={'@the.crowley.official'}><span>@the.crowley.official</span></div>
         </Link>
